@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1 class="text-center mt-5">Your Account!!!</h1>
+    </header>
+
+    <!-- Balance -->
+    <div class="container px-4 mt-5">
+        <div class="row gx-5">
+          <div class="col ">
+           <div class="p-3 rounded bg-info text-start text-light">
+               <h3>Deposite</h3>
+               <h2>$<span id="total-deposit">00</span></h2>
+           </div>
+          </div>
+          <div class="col ">
+            <div class="p-3 rounded bg-success text-start text-light">
+                <h3>Withdraw</h3>
+                <h2>$ <span id="total-withdraw">00</span></h2>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 rounded bg-warning text-start text-light">
+                <h3>Balance</h3>
+                <h2>$<span id="balance">1240</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- deposite and withdraw -->
+
+      <div class="container px-4 mt-5">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="py-5 px-3 border bg-info rounded"><p class="lead text-light"> Please deposite </p>
+           <input id="deposite-amount" class="form-control w-50 mt-2" type="text" name="" id="" placeholder="Deposite amount">
+            <button id="deposite-btn" class="btn btn-primary mt-2">Deposite</button>
+           </div>
+           
+          </div>
+          <div class="col ">
+            <div class="py-5 px-3 border bg-success rounded"><p class="lead text-light"> Please withdraw</p>
+                <input id="withdraw-amount" class="form-control w-50 mt-2" type="text" name="" id="" placeholder="Amount you want to withdraw">
+                <button id="withdraw-btn" class="btn btn-primary mt-2">Withdraw</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="mscript.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
